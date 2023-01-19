@@ -1,0 +1,10 @@
+name: GitHub actions git informations
+author: Gabriel Ferreira <gabriel.oliveira@platformbuilders.io>
+description: GitHub action used to get git repository informations
+branding:
+  icon: feather
+  color: gray-dark
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
