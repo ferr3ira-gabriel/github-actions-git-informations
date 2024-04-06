@@ -22,7 +22,7 @@ The list o env vars generated using this GitHub action:
 ```yaml
       # Example using this actions
       - name: Get git repository informations
-        uses: platformbuilders/github-actions-git-informations@master
+        uses: ferr3ira-gabriel/github-actions-git-informations@master
 
       # Example generated env vars
       - name: Set up JDK 11
@@ -38,6 +38,6 @@ If you wants to update or make changes in module code you should use the **devel
 ```yaml
       # Example using this actions
       - name: Get git repository informations
-        uses: platformbuilders/github-actions-git-informations@develop
+        uses: ferr3ira-gabriel/github-actions-git-informations@develop
 ```
 After execute all tests you can open a pull request to the master branch.
